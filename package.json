@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "prompts": "^2.0.4",
+    "puppeteer": "^1.15.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
