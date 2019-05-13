@@ -1,5 +1,5 @@
 # yahoo-oauth-bot
 
 ```
-yarn run
+yarn start
 ```
