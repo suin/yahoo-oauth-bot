@@ -62,8 +62,6 @@
     "version": "oclif-dev readme && git add README.md",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
-    "start": "ts-node -r tsconfig-paths/register src/main.ts",
-    "start:prod": "node dist/main.js",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest",
     "test:watch": "jest --watch",
