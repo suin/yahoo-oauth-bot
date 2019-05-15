@@ -73,6 +73,6 @@ export default class Auth extends Command {
   }
 
   protected async init(): Promise<any> {
-    config() // load .env
+    config({path: __dirname + '/../../.env'}) // load .env
   }
 }

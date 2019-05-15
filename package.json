@@ -59,6 +59,8 @@
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "bin:install": "ln -fs $(pwd)/bin/run /usr/local/bin/yahoo",
+    "bin:uninstall": "rm -f /usr/local/bin/yahoo",
     "version": "oclif-dev readme && git add README.md",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",

@@ -4,12 +4,18 @@
 
 * Get Yahoo! API access token using Yahoo ID and password.
 
-## Usage
+## Installation
 
 1. Copy `.env.dist` to `.env` and edit it.
 2. Run `yarn`
-3. Run `./bin/run auth`
+3. Run `yarn bin:install`
 
+
+## Usage
+
+```
+yahoo auth
+```
 
 ## Tips
 
