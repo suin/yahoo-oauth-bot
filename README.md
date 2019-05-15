@@ -1,4 +1,6 @@
-# yahoo-oauth-bot
+# yapi
+
+A CLI client for Yahoo! JAPAN API
 
 ## Features
 
@@ -14,7 +16,7 @@
 ## Usage
 
 ```
-yahoo auth
+yapi auth
 ```
 
 ## Tips
@@ -25,7 +27,7 @@ By running the following command, two environment variables will be declared.
 `YAHOO_ACCESS_TOKEN` is for the access token and `YAHOO_REFRESH_TOKEN` is for the refresh token.
 
 ```bash
-$ eval $(yahoo auth --style=export_env)
+$ eval $(yapi auth --style=export_env)
 ```
 
 You would see two environment variables:
