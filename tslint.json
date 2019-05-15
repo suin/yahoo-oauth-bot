@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "no-unused-expression": true
+  },
+  "rules": {
+    "no-any": true,
+    "member-access": [true, "no-public"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "linebreak-style": [true, "LF"],
+    "no-irregular-whitespace": true,
+    "number-literal-format": true,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "object-literal-sort-keys": [true, "match-declaration-order-only"]
+  },
+  "rulesDirectory": []
+}
