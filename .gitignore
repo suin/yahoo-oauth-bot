@@ -174,3 +174,6 @@ fabric.properties
 
 /.env
 /dist
+/lib
+/tmp
+/tsconfig.tsbuildinfo
